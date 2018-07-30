@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM arm32v6/alpine
 LABEL maintainer="Jason Wilder <mail@jasonwilder.com>"
 
 RUN apk -U add openssl
